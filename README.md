@@ -4,6 +4,15 @@
 This document is a step-by-step guide to transforming your terminal into an ultra-fast and smart tool. You will learn how to install and configure **Oh My Zsh**, **zoxide**, and **fzf**, and how to combine them to navigate your system at the speed of light.
 
 ---
+## ⚡ Quick Install (Automated)
+
+If you want to install and configure everything automatically, download and run the `install.sh` script:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+---
 
 ## 📋 Table of Contents
 1. [How to install Oh My Zsh](#1-how-to-install-oh-my-zsh)
