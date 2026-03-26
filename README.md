@@ -52,7 +52,7 @@ Depending on your operating system, run:
 - Fedora: `sudo dnf install zoxide`
 - Arch Linux: `sudo pacman -S zoxide`
 
-### Configuration *(Mandatory step!)
+### Configuration *(Mandatory step!)*
 
 For your terminal to recognize the command, you need to add it to your configuration. Run this:
 ```bash
@@ -74,7 +74,7 @@ Once installed, you will use the `z` command instead of `cd`.
 ## 4. How to install fzf
 fzf (Fuzzy Finder) is a general-purpose command-line fuzzy finder. It allows you to search for files, history, and processes by typing fragments of words in any order.
 
-Recommended Installation (Via Git)
+### Recommended Installation (Via Git)
 This is the best way to install it to ensure you automatically activate the Zsh keyboard shortcuts:
 ```bash
 # 1. Clone the official repository
