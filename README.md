@@ -34,7 +34,7 @@ Make sure you have `zsh`, `curl`, and `git` installed on your system.
 ### Installation
 Run the following command in your terminal:
 ```bash
-sh -c "$(curl -fsSL [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 The script will clone the repository and automatically change your default shell to Zsh.
 
@@ -78,7 +78,7 @@ fzf (Fuzzy Finder) is a general-purpose command-line fuzzy finder. It allows you
 This is the best way to install it to ensure you automatically activate the Zsh keyboard shortcuts:
 ```bash
 # 1. Clone the official repository
-git clone --depth 1 [https://github.com/junegunn/fzf.git](https://github.com/junegunn/fzf.git) ~/.fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 # 2. Run the installation script
 ~/.fzf/install
