@@ -1,0 +1,38 @@
+# =============================================================================
+#  ZSH CONFIGURATION TEMPLATE
+#  Powered by Oh My Zsh, Zoxide & fzf
+# =============================================================================
+
+# 1. Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# 2. Set name of the theme to load.
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+# 3. Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+plugins=(git z)
+
+# 4. Load Oh My Zsh
+source $ZSH/oh-my-zsh.sh
+
+# =============================================================================
+# CUSTOM ALIASES
+# =============================================================================
+alias c="clear"
+alias ll="ls -lah"
+alias update="sudo apt update && sudo apt upgrade -y" # Change 'apt' if using macOS/Fedora/Arch
+
+# =============================================================================
+# PLUGINS & TOOLS INITIALIZATION
+# =============================================================================
+
+# Initialize Zoxide (Smart cd)
+# This allows using the 'z' and 'zi' commands
+eval "$(zoxide init zsh)"
+
+# Initialize fzf (Fuzzy Finder)
+# Ensure the modern binary is in the PATH and load the Zsh integration
+export PATH="$HOME/.fzf/bin:$PATH"
+eval "$($HOME/.fzf/bin/fzf --zsh)"
